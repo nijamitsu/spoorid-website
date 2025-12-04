@@ -14,34 +14,41 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="logo-container">
-      <img src="spoorid-logo.png" alt="SpoorID Logo" class="logo" />
-    </div>
-    <h1>SpoorID</h1>
-    <div class="app-store-button-container">
-      <a href="#" class="app-store-button">
-        <img
-          src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg"
-          alt="Download on the App Store"
-        />
-      </a>
-    </div>
-    <h2>
-      Beautiful, simple, and always on time for birthdays.
-    </h2>
+    <main>
+      <section class="hero">
+        <div class="logo-container">
+          <img src="spoorid-logo.png" alt="SpoorID Logo" class="logo" />
+        </div>
+        <h1>SpoorID</h1>
+        <h2 class="tagline">
+          Beautiful, simple, and always on time for birthdays.
+        </h2>
+        <div class="app-store-button-container">
+          <a
+            href="https://apps.apple.com/us/app/spoorid/id6478252244"
+            class="app-store-button"
+          >
+            <img
+              src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg"
+              alt="Download on the App Store"
+            />
+          </a>
+        </div>
+      </section>
 
-    <p style="text-align: center">
-      Capycount makes tracking birthdays effortless and beautiful. Add birthdays
-      once, and the app automatically sorts them by date, groups them into
-      sections, sends notifications, and displays countdowns on a widget. By
-      default, the widget shows the closest birthday, or you can choose a
-      specific one.
-    </p>
+      <p class="description">
+        SpoorID makes identifying animal scat simple and reliable. Snap a photo
+        and the app analyzes it instantly, using both the image and your
+        location to improve accuracy. Save your records, see them neatly
+        organized, view them on the map, and gain clearer insight into the
+        wildlife around you.
+      </p>
+    </main>
 
     <footer>
       <a href="privacy.html">Privacy</a>
       <a href="support.html">Support</a>
-      <p>© <span id="year"></span> SpoorID All rights reserved.</p>
+      <p>© <span id="year"></span> SpoorID. All rights reserved.</p>
     </footer>
     <script>
       document.getElementById("year").textContent = new Date().getFullYear();
