@@ -17,7 +17,7 @@ a {
 
 a:hover {
   text-decoration: none;
-  color: #000; /* Slightly darken on hover for feedback */
+  color: #000;
 }
 
 a:visited {
@@ -41,7 +41,7 @@ a:visited {
   height: 150px;
   border-radius: 50%;
   background: linear-gradient(to bottom, #ff8c00, #ff0000);
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15); /* Softer, deeper shadow */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
 }
 
 h1 {
@@ -84,7 +84,7 @@ footer {
   margin-top: 3em;
   padding-top: 1.5em;
   font-size: 0.8em;
-  border-top: 1px solid #e0e0e0; /* Subtle separator */
+  border-top: 1px solid #e0e0e0;
   color: #888;
 }
 
